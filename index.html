@@ -9,16 +9,63 @@
             width: 200px;
             height: 200px;
         }
+
+        header
+        {
+            display: block;
+            padding: 10px;
+            text-align: center;
+            background: #ebebeb;
+        }
+
+        section 
+        {
+            display: block;
+            float: left;
+            width: 1100px;
+            height: 280px;
+            overflow: hidden;
+            margin-left: 60px;
+            border-block-color: blue;
+        }   
+        h1 { 
+            display: block;
+            font-size: 2em;
+            margin-top: 0.67em;
+            margin-bottom: 0.67em;
+            margin-left: 0;
+            margin-right: 0;
+            font-weight: bold;
+        }
+        
     </style>
 
 </head>
 
 <body>
 
-    <h1>Number to Guess: <span id="number-to-guess"></span></h1>
-    <h1>your Score: <span id="score-text"></span></h1>
-    <h1>wins: <span id="wins-text"></span></h1>
-    <h1>Losses: <span id="losses-text"></span></h1>
+
+
+            <header>
+                <h1>Crystal Collections </h1>
+            </header>
+            
+                         
+              <section>
+                <heading>
+                  <h3>REGISTERS  </h3>
+                </heading>
+                
+                <h1>Number to Guess: <span id="number-to-guess"></span></h1>
+                <h1>Your Score: <span id="score-text"></span></h1>
+                <h1>Wins: <span id="wins-text"></span></h1>
+                <h1>Losses: <span id="losses-text"></span></h1>
+
+              </section>
+
+
+
+    
 
     <!-- Note that this div is now empty. We will fill it dynamically -->
     <div id="crystals">
